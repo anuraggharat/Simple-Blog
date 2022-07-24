@@ -4,6 +4,9 @@ import md from 'markdown-it'
 
 export default function Blog({ frontmatter ,content}) {
 
+  console.log(frontmatter);
+  console.log(content);
+
   return (
     <div className="w-100">
       <img src={`/${frontmatter.socialImage}`} className="w-3/4 mx-auto" />
